@@ -1,0 +1,74 @@
+/* reglas globales del sitio */
+body{
+margin: 0;
+}
+
+header{
+    height: 48px;
+    padding: 20px 18px;
+    background: #0071DC;
+}
+#divheader{
+height: 32px;
+padding: 4px 24px;
+border-top: solid white 1px;
+background: #0071DC;
+
+
+
+}
+.buttonHeader{
+padding: 14px 10px;
+border: none;
+background: transparent;
+border-radius: 25px;
+color: white;
+font-weight: bold;
+
+}
+#inputHeader{
+    width: 40%;
+    height: 80%;
+    border-radius: 25px;
+    border: none;
+}
+.buttonHeader:hover{
+background-color: rgb(1, 72, 138);
+}
+#direccion{
+    width: 49%;
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -10px;
+    
+}
+
+#direccion > span:first-of-type{
+    font-weight: bold;
+}
+
+
+
+#navheader{
+    width: 49%;
+    display: inline-block
+    }
+#navheader ul li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 8px;
+
+}
+
+.material-symbols-outlined{
+    font-size: 16px !important;
+    color: white;
+
+}
+#navheader ul{
+    position: relative;
+    top: -10px;
+}
