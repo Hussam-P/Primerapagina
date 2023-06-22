@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 /*reglas globales del sitio*/
 body{
@@ -6,19 +5,16 @@ body{
 }
 
 /*HEADER*/
-=======
 /* reglas globales del sitio */
 body{
 margin: 0;
 }
 
->>>>>>> 290b948c20709dfb1c61f27b4cfdd04014ba8d74
 header{
     height: 48px;
     padding: 20px 18px;
     background: #0071DC;
 }
-<<<<<<< HEAD
 .btnHeader{
     padding: 14px 15px;
     border: none;
@@ -29,25 +25,6 @@ header{
 }
 .btnHeader:hover{
     background-color: rgb(1, 67, 128);
-=======
-#divheader{
-height: 32px;
-padding: 4px 24px;
-border-top: solid white 1px;
-background: #0071DC;
-
-
-
-}
-.buttonHeader{
-padding: 14px 10px;
-border: none;
-background: transparent;
-border-radius: 25px;
-color: white;
-font-weight: bold;
-
->>>>>>> 290b948c20709dfb1c61f27b4cfdd04014ba8d74
 }
 #inputHeader{
     width: 40%;
@@ -55,17 +32,12 @@ font-weight: bold;
     border-radius: 25px;
     border: none;
 }
-<<<<<<< HEAD
 /*FIN HEADER*/
 #divHeader{
     height: 32px;
     padding: 4px 24px;
     border-top: solid white 1px;
     background: #0071DC;
-=======
-.buttonHeader:hover{
-background-color: rgb(1, 72, 138);
->>>>>>> 290b948c20709dfb1c61f27b4cfdd04014ba8d74
 }
 #direccion{
     width: 49%;
@@ -73,7 +45,6 @@ background-color: rgb(1, 72, 138);
     color: white;
     position: relative;
     top: -10px;
-<<<<<<< HEAD
 }
 #direccion > span:first-of-type{
     font-weight: bold;
@@ -87,40 +58,24 @@ background-color: rgb(1, 72, 138);
     top: -10px;
 }
 #navHeader ul li{
-=======
-    
-}
-
-#direccion > span:first-of-type{
-    font-weight: bold;
-}
-
-
-
-#navheader{
-    width: 49%;
-    display: inline-block
-    }
-#navheader ul li{
->>>>>>> 290b948c20709dfb1c61f27b4cfdd04014ba8d74
     display: inline-block;
     list-style: none;
     color: white;
     font-weight: bold;
     margin-right: 8px;
-<<<<<<< HEAD
 }
-=======
+/* TABLE */
+td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
 
+
+#trilogia{
+    background: rgb(195, 216, 255);
+    text-align: center
 }
 
-.material-symbols-outlined{
-    font-size: 16px !important;
-    color: white;
 
-}
-#navheader ul{
-    position: relative;
-    top: -10px;
-}
->>>>>>> 290b948c20709dfb1c61f27b4cfdd04014ba8d74
+/* fIN TANBLE*/

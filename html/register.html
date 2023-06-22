@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="
+    ">
+    <title>Registro</title>
+</head>
+<style>
+    header{
+        height: 48px;
+        padding: 20px 18px;
+        background: rgb(122, 122, 240);
+        position: sticky;
+        top: 0%;
+    }
+    nav{
+        display: inline-block;
+
+    }
+
+    nav ul li{
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+        margin: 0 10px;
+
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+
+    }
+    
+
+    form{
+        margin: 5% auto;
+        box-sizing: border-box;
+        padding: 10%;
+        border: 3px solid rgb(87, 87, 221);
+        box-shadow: 0 3px 5px rgb(166, 166, 243);
+        width: 50%;
+        border-radius: 20px;
+text-align: center;
+
+    }
+    .btnform{
+        padding: 7px 15px;
+        border-width: 2px;
+        border-style: solid;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <header>
+        <img src="https://i5.walmartimages.com/dfw/63fd9f59-b3e1/7a569e53-f29a-4c3d-bfaf-6f7a158bfadd/v1/walmartLogo.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="../walmart.html"></a> Home</li>
+                <li>Registro</li>
+                <li><a href="../html/login.html"></a> Login</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#" name="" method="POST">
+            <label for="username">nombre de Usuario:</label><br>
+
+                <input class="btnform" type="text" name="username" required placeholder="Escribe tu Usuario aqui" minlength="3"><br><br>
+
+                <label for="password">contraseña:</label><br>
+
+                <input class="btnform" type="password" name="password" maxlength="8"required placeholder="Ingresa Tu Clave"><br><br>
+                <input class="btnform" type="submit" value="iniciar Sesion">
+        </form>
+      
+
+    </main>
+</body>
+</html>
